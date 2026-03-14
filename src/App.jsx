@@ -25,6 +25,7 @@ import ComingSoonPage from './pages/CommingSoonPage';
 import Wannam from './pages/18wannam';
 import Services from './pages/Services';
 import Services2 from './pages/Services2';
+import { AddLessonsPage } from './admin/AddLessonsPage';
 
 const App = () => {
   const [activePage, setActivePage] = useState('home');
@@ -55,6 +56,7 @@ const App = () => {
           <Route path="/admin/add-news" element={<AdminLayout><AddNewspage /></AdminLayout>} />
           <Route path="/admin/add-products" element={<AdminLayout><AddProductPages /></AdminLayout>} />
           <Route path="/admin/add-merch" element={<AdminLayout><AddMerchpage /></AdminLayout>} />
+          <Route path="/admin/manage-lessons" element={<AdminLayout><AddLessonsPage /></AdminLayout>} />
         </Routes>
       </Router>
       <Footer />
