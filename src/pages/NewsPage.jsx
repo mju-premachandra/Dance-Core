@@ -25,10 +25,9 @@ const NewsPage = () => {
       title: 'April Intake',
       description: 'April Intake for New Students is now open!\n' +
       'Join us for an exciting journey in dance. Enroll now to secure your spot!\n\n'+
-      'Every Friday - 03:00 PM to 05:00 PM\n\n'+
-      'Locations: \n- Colorful life skill development center, Katukurunda, Kalutara\n'+
-      '- Studio moonlight & gig maharagama, Maharagama\n'+
-      '- Damith Athukorale Dispensing Opticals, moragahayata, rathnapura.\n\n'+
+      'Locations: \n Sunday\n 04.00 PM - 06.00 PM\n  Colorful life skill development center, Katukurunda, Kalutara\n\n'+
+      'Saturday\n 10.00 AM - 12.00 PM\n  Studio moonlight & gig, Maharagama\n\n'+
+      'Friday\n 03.00 PM - 05.00 PM\n Kvihansa Art Gallery, Moragahayata, Rathnapura.\n\n'+
       'Admission Fee: Rs. 1500\n'+
       'Mothly Fee: Rs. 2000',
     },
@@ -38,7 +37,6 @@ const NewsPage = () => {
       title: 'March Intake',
       description: 'March Intake for New Students is now open!\n' +
       'Join us for an exciting journey in dance. Enroll now to secure your spot!\n\n'+
-      'Every Friday - 03:00 PM to 05:00 PM\n\n'+
       'Locations: \n- Colorful life skill development center, Katukurunda, Kalutara\n'+
       '- Studio moonlight & gig maharagama, Maharagama\n'+
       '- Damith Athukorale Dispensing Opticals, moragahayata, rathnapura.\n\n'+
