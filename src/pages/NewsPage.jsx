@@ -14,11 +14,22 @@ import rathnapuraJanuaryIntake from '../assets/images/events/rathnapura-january-
 import maharagamaWorkshop from '../assets/images/events/maharagamaWorkshop.webp';
 import marchIntake from '../assets/images/events/March intake.webp';
 import aprilIntake from '../assets/images/events/april intake.webp';
+import maharagamaWorkshop2 from '../assets/images/events/Maharagama.webp';
 
 
 // Import your background image
 const NewsPage = () => {
   const newsItems = [
+    {
+      id: 'news-12',
+      imageUrl: maharagamaWorkshop2,
+      title: 'Maharagama Free Dance Workshop',
+      description: 'Free Dance workshop Maharagama!\n' +
+      "don't miss this workshop which is gonna change your mind about dancing!\n\n"+
+      'No need to have any knowladge about dancing\n\n'+
+      'Time:  10.00 AM - 12.00 PM\n\n'+
+      'COMPLETELY FREE!'
+    },
     {
       id: 'news-11',
       imageUrl: aprilIntake,
