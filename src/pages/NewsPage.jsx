@@ -14,7 +14,7 @@ import rathnapuraJanuaryIntake from '../assets/images/events/rathnapura-january-
 import maharagamaWorkshop from '../assets/images/events/maharagamaWorkshop.webp';
 import marchIntake from '../assets/images/events/March intake.webp';
 import aprilIntake from '../assets/images/events/april intake.webp';
-import maharagamaWorkshop2 from '../assets/images/events/Maharagama.webp';
+import maharagamaWorkshop2 from '../assets/images/events/Black and White Modern Art Festival Poster.webp';
 
 
 // Import your background image
