@@ -7,6 +7,7 @@ import productionsBannerVideoMp4 from '../assets/videos/manoloka.mp4'; // Revert
 import productionsBannerVideoWebm from '../assets/videos/Manoloka.webm'; // Reverted path
 
 // Import your local images
+import FirstAnniversaryWorkshop from '../assets/images/IMG_2036.JPG.webp';
 import manoloka from '../assets/images/manoloka_theBeginning.webp';
 import thePodcast from '../assets/images/thepodcast.webp';
 import BREAKDOWN from '../assets/images/BREAKDOWN-thumbnail.webp';
@@ -42,6 +43,7 @@ const VideoCard = ({ imageUrl, title, videoUrl }) => (
 
 const Productions = forwardRef((props, ref) => {
   const videos = [
+    { id: '1AnniversaryWorkshop', imageUrl: FirstAnniversaryWorkshop, title: 'First Anniversary Workshop Series | Maharagama', videoUrl: 'https://youtu.be/vJu2w3xNS5s' },
     { id: '18wannam', imageUrl: wannam, title: '18 wannam ( 18 වන්නම් ) | Cinematic Dance Cover | Studio Dance Core | Yuki Beats x Ravi Jay', videoUrl: 'https://youtu.be/4tCVRGLMFgc?si=C17ZfbKtSOaf33iH' },
     { id: 'BREAKDOWN', imageUrl: BREAKDOWN, title: 'A cinematic dance performance by TEAM HAVOC | Breakdown', videoUrl: 'https://youtu.be/9YKn7p7Eq_w?si=OPgJH-ObfAkDD3vy' },
     { id: 'thePodcast', imageUrl: thePodcast, title: 'The Podcast - Episode 01', videoUrl: 'https://youtu.be/mzWVjaS893U?si=8EkuvQxfj0Up5qHZ' },
