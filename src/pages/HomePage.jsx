@@ -129,14 +129,14 @@ const HomePage = ({ setActivePage }) => {
             {/* Text Section */}
             <div className="md:w-1/2 flex flex-col justify-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">Latest Video</h2>
-              <h3 className="text-xl md:text-2xl font-semibold mb-2">First Anniversary Workshop Series | Maharagama</h3>
+              <h3 className="text-xl md:text-2xl font-semibold mb-2">First Anniversary Workshop Series | Kalutara</h3>
               <p className="text-gray-700 leading-relaxed">
                 It's been a year now and we've come a long way. The love we've received from you is immense. This is a series of workshops where we'll teach the next generation, for free, what we've learned from our dancing journey.
                 <br />
                 <b>keep dancing....</b>
                 <br />
               </p>
-              <a href="https://youtu.be/vJu2w3xNS5s" target="_blank" className="mt-4 text-blue-600 font-semibold hover:underline">Watch now →</a>
+              <a href="https://youtu.be/uRCVYBSZ3Eg" target="_blank" className="mt-4 text-blue-600 font-semibold hover:underline">Watch now →</a>
             </div>
             {/* Image Section */}
             <div className="md:w-1/2 flex justify-center md:justify-end items-center">

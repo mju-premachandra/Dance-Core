@@ -11,4 +11,4 @@ export { default as moto } from '../assets/videos/moto.mp4';
 export { default as bggradiant} from '../assets/images/bg-gradiant.webp';
 export { default as augustIntake } from '../assets/images/events/audust-new-intake.webp';
 export { default as wannam} from '../assets/images/events/thumb-nail.webp';
-export { default as fristAnnWorkshop} from '../assets/images/IMG_2036.JPG.webp';
+export { default as fristAnnWorkshop} from '../assets/images/IMG_2276.JPG.webp';
