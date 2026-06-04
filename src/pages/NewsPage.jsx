@@ -16,11 +16,23 @@ import marchIntake from '../assets/images/events/March intake.webp';
 import aprilIntake from '../assets/images/events/april intake.webp';
 import maharagamaWorkshop2 from '../assets/images/events/Black and White Modern Art Festival Poster.webp';
 import kalutaraWorkshop from '../assets/images/events/IMG_1894.JPG.webp';
+import rath2 from '../assets/images/events/IMG_2672.JPG.webp';
 
 
 // Import your background image
 const NewsPage = () => {
   const newsItems = [
+    {
+      id: 'news-14',
+      imageUrl: rath2,
+      title: 'Free dance workshop conducted by Studio Dance Core in Rathnapura',
+      description: 'Free Dance workshop Rathnapura!\n\n' +
+      'Date:  2025-06-12\n'+
+      'Time:  03.00 PM - 05.00 PM\n'+
+      'Location: Wasana Higher Education Center, Rathnapura\n\n'+
+      'No need to have any knowladge about dancing\n'+
+      'COMPLETELY FREE!'
+    },
     {
       id: 'news-13',
       imageUrl: kalutaraWorkshop,
