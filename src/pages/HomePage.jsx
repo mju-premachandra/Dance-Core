@@ -3,7 +3,7 @@ import heroVideoMp4 from '../assets/videos/home.mp4';
 import heroVideoWebm from '../assets/videos/Home.webm';
 import {
   logo, classesandevents, merch, headlogo, bg,
-  servicesCover, productions, moto, bggradiant, fristAnnWorkshop
+  servicesCover, productions, moto, bggradiant, TheDancer
 } from '../utils/config';
 import NavBar from '../components/NavBar';
 
@@ -129,20 +129,20 @@ const HomePage = ({ setActivePage }) => {
             {/* Text Section */}
             <div className="md:w-1/2 flex flex-col justify-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">Latest Video</h2>
-              <h3 className="text-xl md:text-2xl font-semibold mb-2">First Anniversary Workshop Series | Kalutara</h3>
+              <h3 className="text-xl md:text-2xl font-semibold mb-2">THE DANCER - MANOLOKA EPISODE II</h3>
               <p className="text-gray-700 leading-relaxed">
-                It's been a year now and we've come a long way. The love we've received from you is immense. This is a series of workshops where we'll teach the next generation, for free, what we've learned from our dancing journey.
-                <br />
-                <b>keep dancing....</b>
-                <br />
+                The shadows have faded, and the mirrors have shattered. I am no one’s reflection. I am no one else..... but me.<br/>
+                I am the architect of this motion. These steps, this breath, these scars; they are the only borders of my kingdom.<br/>
+                My reality isn't found; it is forged. I am the dancer, the dance, and the god of my own making.
+                
               </p>
-              <a href="https://youtu.be/uRCVYBSZ3Eg" target="_blank" className="mt-4 text-blue-600 font-semibold hover:underline">Watch now →</a>
+              <a href="https://youtu.be/lyK3p7t1ihw?si=M7B-LdjQa8ciA1cI" target="_blank" className="mt-4 text-blue-600 font-semibold hover:underline">Watch now →</a>
             </div>
             {/* Image Section */}
             <div className="md:w-1/2 flex justify-center md:justify-end items-center">
               <img
-                src={fristAnnWorkshop}
-                alt="Rathnapura workshop"
+                src={TheDancer}
+                alt="manoloka episode 2"
                 className="w-full h-auto max-h-[400px] object-cover rounded-lg shadow-lg"
               />
             </div>
