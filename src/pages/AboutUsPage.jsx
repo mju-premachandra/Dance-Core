@@ -4,7 +4,7 @@ import PersonProfileCard from '../components/PersonProfileCard';
 import { bg } from '../utils/config';
 // Import unique images for each person (front and back)
 // ASSUME THESE PATHS AND FILENAMES ARE CORRECT IN YOUR PROJECT
-import jayaruwan from '../assets/images/profiles/jayaruwan_new.webp';
+import jayaruwan from '../assets/images/profiles/IMG_2432.JPEG';
 import sandevFront from '../assets/images/profiles/sandev.webp';
 import hasinduFront from '../assets/images/profiles/hasindu.webp';
 import hiviruFront from '../assets/images/profiles/dilneth.webp';
