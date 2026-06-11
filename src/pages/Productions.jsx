@@ -7,6 +7,7 @@ import productionsBannerVideoMp4 from '../assets/videos/manoloka.mp4'; // Revert
 import productionsBannerVideoWebm from '../assets/videos/Manoloka.webm'; // Reverted path
 
 // Import your local images
+import TheDancerEYNK from '../assets/images/TheDancer EYNK.webp';
 import TherDancer from '../assets/images/IMG_2658.JPG.webp';
 import FirstAnniversaryWorkshop2 from '../assets/images/IMG_2276.JPG.webp';
 import FirstAnniversaryWorkshop from '../assets/images/IMG_2036.JPG.webp';
@@ -45,6 +46,7 @@ const VideoCard = ({ imageUrl, title, videoUrl }) => (
 
 const Productions = forwardRef((props, ref) => {
   const videos = [
+    { id: 'TheDancer EYNK', imageUrl: TheDancerEYNK, title: 'THE DANCER | Everything you need to know', videoUrl: 'https://youtu.be/NgEuDuK1wYU' },
     { id: 'TheDancer', imageUrl: TherDancer, title: 'THE DANCER - MANOLOKA EPISODE II', videoUrl: 'https://youtu.be/lyK3p7t1ihw?si=M7B-LdjQa8ciA1cI' },
     { id: '1AnniversaryWorkshop2', imageUrl: FirstAnniversaryWorkshop2, title: 'First Anniversary Workshop Series | Kalutara', videoUrl: 'https://youtu.be/uRCVYBSZ3Eg' },
     { id: '1AnniversaryWorkshop', imageUrl: FirstAnniversaryWorkshop, title: 'First Anniversary Workshop Series | Maharagama', videoUrl: 'https://youtu.be/vJu2w3xNS5s' },
